@@ -17,7 +17,7 @@
   --link-color: #aaa;
   --link-hover: #ac0b0b;
 
-  --header-bg: rgba(0,0,0,0.6);
+  --header-bg: rgba(158, 14, 14, 0.274);
 
 }
 
@@ -32,9 +32,9 @@ body.light-mode {
   --glow-color: rgba(232, 233, 203, 0.74);
 
   --link-color: #555;
-  --link-hover: #000;
+  --link-hover: #f0f1dbfb;
 
-  --header-bg: rgba(244,244,249,0.7);
+  --header-bg: rgba(170, 59, 59, 0.274);
 
 }
 
@@ -179,7 +179,7 @@ header {
   flex-wrap: wrap;
   gap: 10px;
 
-  background:#00000027;
+  background:var(--header-bg);
 
   backdrop-filter: blur(15px);
 
@@ -325,7 +325,7 @@ nav a:hover::after {
 .gradient {
 
   background:
-    linear-gradient(90deg,#c50303,#965b67,#b89dd1);
+    linear-gradient(90deg,#c50303,#c12e4c,#890208);
 
   -webkit-background-clip: text;
 
